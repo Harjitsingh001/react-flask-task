@@ -1,0 +1,80 @@
+.containerBox{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 10px;
+    gap: 10px;
+    height: 100%;
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 95%;
+    border: 1px solid rgb(237, 236, 250);
+    border-radius: 10px;
+}
+.rightBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 95%;
+    border: 1px solid rgb(237, 236, 250);
+border-radius: 10px;
+}
+
+.midIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.164);
+    transition: all 0.5s ;
+    cursor: pointer;
+}
+.midIcon:hover{
+    background-color: rgba(255, 255, 255, 0.164);
+}
+.itemBox{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.nameBox{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.164);
+    padding-bottom: 10px;
+    width: 80%;
+    padding-top: 10px;
+}
+.taskHead{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.nameBox span{
+color:#b9b7b7;
+
+}
+.btnBox button{
+    margin-bottom: 12px;
+    padding: 8px;
+    width: 180px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color:  rgba(255, 255, 255, 0.29);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

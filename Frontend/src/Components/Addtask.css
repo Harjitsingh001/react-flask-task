@@ -1,0 +1,23 @@
+.addTask {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 25px; */
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    background-color: rgba(255, 255, 255, 0.061);
+    border-radius: 5px;
+    width: 280px;
+    height: 140px;
+    padding: 15px;
+    color: white;
+    margin-top: 19px;
+    margin-left: 8px;
+
+}
+
+.addIcon {
+    font-size: 40px;
+    cursor: pointer;
+
+}
